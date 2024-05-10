@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="./scrip.js" defer></script>
+    <style>
+        /* Estilos del navbar */
+        nav {
+            background-color: #007bff; /* Azul celeste */
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Barnett Marketing</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Servicios</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="upload-section">
+            <h2>Servicio de marketing TOP en Lima</h2>
+            <div class="image-upload-container">
+                <a href="#" class="image-link"><img src="./images/marketing 1.jpg" alt="Imagen 1"></a>
+                <a href="#" class="image-link"><img src="./images/marketing 2.jpg" alt="Imagen 2"></a>
+                <a href="#" class="image-link"><img src="./images/marketing 3.jpg" alt="Imagen 3"></a>
+            </div>
+        </section>
+    </div>
+
+    <section class="summary-section">
+        <h2>¿Qué hacemos?</h2>
+        <p>Somos expertos en marketing digital y ofrecemos servicios de promoción en redes sociales, campañas de correo electrónico y anuncios en línea.</p>
+    </section>
+
+    <div class="email-section">
+        <h2>Envíanos un correo</h2>
+        <form id="emailForm">
+            <input type="email" id="correo" placeholder="Correo electrónico">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Barnett Marketing</p>
+    </footer>
+    <div id="notification"></div>
+</body>
+</html>
+

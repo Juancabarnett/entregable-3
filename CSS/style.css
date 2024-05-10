@@ -1,0 +1,114 @@
+/* Estilos de la página con diseño celeste */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f9; /* Fondo celeste */
+}
+
+header {
+    background-color: #007bff; /* Azul celeste */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #000; /* Negro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+/* Estilos actualizados de las notificaciones */
+#notification {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000; /* Negro */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.service {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.service h2 {
+    color: #007bff; /* Azul celeste */
+}
+
+.service p {
+    color: #555; /* Texto oscuro */
+}
+
+button {
+    background-color: #007bff; /* Azul celeste */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul oscuro */
+}
+
+/* Estilos adicionales para la nueva página */
+.upload-section, .summary-section, .email-section {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    margin-top: 20px;
+}
+
+.summary-section {
+    float: right;
+    width: calc(70% - 20px); /* 70% del ancho del contenedor - 20px de espacio entre secciones */
+}
+
+.email-section {
+    margin-top: 20px;
+}
+
+.image-upload-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-link {
+    width: 45%; /* Ancho de cada imagen */
+    text-align: center;
+}
+
+.image-link img {
+    width: 100%; /* Ajustar imagen al tamaño del contenedor */
+    height: auto;
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
